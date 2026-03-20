@@ -1,0 +1,41 @@
+Rc files read:
+  /usr/local/share/latexmk/LatexMk
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+Latexmk: Changing directory to '/var/lib/overleaf/data/compiles/69bc89be48774b8557b48c27-69bc854948774b8557b48bdf/'
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'no_dest':
+  xelatex
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -recorder --jobname="output"  "你好.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+
+SyncTeX written on output.synctex.gz.Latexmk: Getting log file 'output.log'
+Latexmk: Examining 'output.fls'
+Latexmk: Examining 'output.log'
+Latexmk: Log file says output to 'output.xdv'
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  output.xdv
+Category 'changed_source_rules':
+  xelatex
+Category 'no_dest':
+  xdvipdfmx
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "output.pdf"  "output.xdv"'
+------------
+Latexmk: All targets (output.xdv output.pdf) are up-to-date
+Latexmk: Undoing directory change
+
